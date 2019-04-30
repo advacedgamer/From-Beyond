@@ -2042,11 +2042,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2097499284}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: 121.99999}
+  m_AnchoredPosition: {x: 320, y: 191}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305116677
@@ -2071,10 +2071,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -11204,6 +11204,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4960996797683474899, guid: 9ab80659da1035e4e9c7d7293ee78741,
+        type: 3}
+      propertyPath: fireRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960996797683474899, guid: 9ab80659da1035e4e9c7d7293ee78741,
+        type: 3}
+      propertyPath: health
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4960996797683474896, guid: 9ab80659da1035e4e9c7d7293ee78741,
         type: 3}
       propertyPath: m_Name
@@ -11294,16 +11304,6 @@ PrefabInstance:
       propertyPath: endGame
       value: 
       objectReference: {fileID: 850804121}
-    - target: {fileID: 4960996797683474899, guid: 9ab80659da1035e4e9c7d7293ee78741,
-        type: 3}
-      propertyPath: fireRate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4960996797683474899, guid: 9ab80659da1035e4e9c7d7293ee78741,
-        type: 3}
-      propertyPath: health
-      value: 500
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ab80659da1035e4e9c7d7293ee78741, type: 3}
 --- !u!1 &1829934068
@@ -12517,29 +12517,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: gameCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 6386258673621318183, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 850804121}
-    - target: {fileID: 6386258673621318183, guid: 4dbad5fc76f23964393c2dcd4fc50834,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: quitGame
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6386258674303559668, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
         type: 3}
-      propertyPath: m_Text
-      value: '
-
-'
+      propertyPath: m_Color.g
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6386258675118925768, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
         type: 3}
-      propertyPath: m_Text
-      value: 'Return to Menu
-
-'
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6386258675678775737, guid: 4dbad5fc76f23964393c2dcd4fc50834,
         type: 3}
@@ -12550,6 +12551,30 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: resumeGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386258675118925768, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Return to Menu
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386258674303559668, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_Text
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386258673621318183, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 850804121}
+    - target: {fileID: 6386258673621318183, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: quitGame
       objectReference: {fileID: 0}
     - target: {fileID: 6386258674245223680, guid: 4dbad5fc76f23964393c2dcd4fc50834,
         type: 3}
@@ -12665,21 +12690,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: placeHolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6386258675453117856, guid: 4dbad5fc76f23964393c2dcd4fc50834,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dbad5fc76f23964393c2dcd4fc50834, type: 3}
@@ -12984,6 +12994,11 @@ PrefabInstance:
       propertyPath: barMulti
       value: 
       objectReference: {fileID: 573498871}
+    - target: {fileID: 1431750264311233312, guid: 82b1736b2aa9c9d4b9274386cc188816,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82b1736b2aa9c9d4b9274386cc188816, type: 3}
 --- !u!1001 &4421838513266197790
