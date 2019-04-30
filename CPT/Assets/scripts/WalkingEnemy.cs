@@ -85,7 +85,7 @@ public class WalkingEnemy : MonoBehaviour
 
     private void MoveTo(GameObject point)
     {
-        rbd.MovePosition(new Vector2((transform.position.x + point.transform.position.x * speed * Time.deltaTime), transform.position.y + point.transform.position.y * speed * Time.deltaTime)); //(transform.position, point.transform.position, speed * Time.deltaTime);
+        rbd.MovePosition(new Vector2((transform.position.x + point.transform.position.x * speed * Time.deltaTime), (transform.position.y + point.transform.position.y * speed * Time.deltaTime))); //(transform.position, point.transform.position, speed * Time.deltaTime);
     }
 
     private void CanFlip()

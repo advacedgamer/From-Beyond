@@ -12998,6 +12998,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 4421838513173015582, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 136190984}
+    - target: {fileID: 4421838513173015582, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
+        type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 1548211881}
+    - target: {fileID: 4421838513173015582, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
+        type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 305116677}
     - target: {fileID: 4421838513173016033, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13053,20 +13068,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4421838513173015582, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 136190984}
-    - target: {fileID: 4421838513173015582, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
-        type: 3}
-      propertyPath: boss
-      value: 
-      objectReference: {fileID: 1548211881}
-    - target: {fileID: 4421838513173015582, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa,
-        type: 3}
-      propertyPath: timer
-      value: 
-      objectReference: {fileID: 305116677}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209c8e3d9c44d1649a0d28ce6bfbf1fa, type: 3}
