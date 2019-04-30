@@ -11204,6 +11204,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4960996797683474896, guid: 9ab80659da1035e4e9c7d7293ee78741,
+        type: 3}
+      propertyPath: m_Name
+      value: Boss
+      objectReference: {fileID: 0}
     - target: {fileID: 4960996797683474899, guid: 9ab80659da1035e4e9c7d7293ee78741,
         type: 3}
       propertyPath: fireRate
@@ -11213,11 +11218,6 @@ PrefabInstance:
         type: 3}
       propertyPath: health
       value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 4960996797683474896, guid: 9ab80659da1035e4e9c7d7293ee78741,
-        type: 3}
-      propertyPath: m_Name
-      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 4960996797683474897, guid: 9ab80659da1035e4e9c7d7293ee78741,
         type: 3}
@@ -12685,6 +12685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UiScaleMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386258674245223686, guid: 4dbad5fc76f23964393c2dcd4fc50834,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6386258674303559674, guid: 4dbad5fc76f23964393c2dcd4fc50834,
         type: 3}
