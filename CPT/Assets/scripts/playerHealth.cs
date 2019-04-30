@@ -15,7 +15,7 @@ public class playerHealth : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
         //sets the variables to default when the scene loads
-        if (sceneName == "SampleScene")
+        if (sceneName == "Level")
         {
             health = 100;
         }

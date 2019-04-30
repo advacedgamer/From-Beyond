@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
         //when playing again resets the time
-        if (sceneName == "SampleScene")
+        if (sceneName == "Level")
         {
             timer = 900.0f;
         }
@@ -62,7 +62,10 @@ public class GameController : MonoBehaviour
         //when time runs out game over
         else
         {
+            timer = 0;
+            anim.SetBool("isDead", true);
             GameOver();
+            StartCoroutine(delayDissappear());
         }
         //if player loses all his health he dies
         if (playerHealth.health <= 0)

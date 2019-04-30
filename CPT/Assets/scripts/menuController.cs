@@ -26,7 +26,7 @@ public class menuController : MonoBehaviour
     //player clicks the play button the game starts
     public void playGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level");
     }
     //player goes back to the main menu from instructions
     public void backMenu()
